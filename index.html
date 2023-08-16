@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" type="image/x-icon" href="imgs/jelylogo.jpg">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:ital,wght@0,100;0,300;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&family=Rubik:ital,wght@0,400;0,500;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Chez Matrix</title>
+</head>
+<body>
+    <!--start header-->
+    <div class="header">
+        <nav class="flex flex-wrap items-center justify-between w-full  text-lg text-stone-400">
+            <div class="first-part">
+                <a href="#" class="flex items-center ">
+                    <img src="imgs/jellyfish.png" alt="" class="  w-10 ml-6  mr-5 cursor-pointer  ">
+                    <span >Chez Matrix</span>
+                </a>
+            </div>
+            <svg
+            xmlns="http://www.w3.org/2000/svg"
+            id="menu-button"
+            class="h-6 w-6 cursor-pointer md:hidden block"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M4 6h16M4 12h16M4 18h16"
+            />
+            </svg>
+            <div class=" second-part hidden w-full md:flex md:items-center md:w-auto" id="menu">
+               <ul class=" pt-4 text-base text-stone-400 md:flex md:justify-between md:pt-0 md:gap-5" >
+                <li class="relative overflow-hidden pt-4 pb-4"">
+                    <a href="#">About Us</a>
+                </li>
+                <li class="relative overflow-hidden pt-4 pb-4">
+                    <a  href="mailto:jely@gmail.com">Contact Us</a>
+                </li>
+                <li class="sign-in mt-2 sm:mt-0 pt-4 pb-4 pl-5 pr-6 flex items-center  text-black">
+                    <i class="fa-solid fa-right-to-bracket mr-4"></i>
+                    <a href=" https://discord.com/">Discord</a>
+                </li>
+               </ul>
+            </div>
+        </nav>
+    </div>
+    <!--end header-->
+    <!--start acceuil-->
+    <div id="acceuil" class="acceuil relative ">
+        <div class="container flex justify-between items-center flex-col md:flex-row ">
+            <div class="first-row flex flex-col items-center ">
+                <div class="introduction  ">
+                    <h6 class="text-2xl">Welcome</h6>
+                    <h2 class="text-9xl">Chez Matrix</h2>
+                    <p class="text-3xl text-white italic mt-12 mb-12">Get The Best Deals Of
+                        GAMING Giftcards</p>
+                    <div class="w-full flex justify-center sm:justify-start pb-8">
+                    <a href="https://discord.com/" target="_blank" class="btn"><span>Contact Us</span></a>
+                </div>
+                </div>
+                <ul class="flex md:justify-between md:flex-row flex-col gap-2 ">
+                    <li class="text-stone-400 md:p-10 p-3 font-bold text-2xl italic" >Google Cards</li>
+                    <li class="text-stone-400 md:p-10 p-3  font-bold text-2xl italic">Gaming Cards</li>
+                    <li class="text-stone-400 md:p-10 p-3  font-bold text-2xl italic">Playstation Cards</li>
+                </ul>
+            </div>
+            <div class="second-row">
+                <img src="imgs/slider_img01.png" alt=""  class="md:m-0 mt-12 ">
+            </div>
+            <div class="slider-shape">
+                <img src="imgs/slider_shape01.png" alt="">
+                <img src="imgs/slider_shape03.png" alt="">
+                <img src="imgs/slider_shape04.png" alt="">
+                <img src="imgs/slider_shape04.png" alt="">
+                <img src="imgs/slider_shape03.png" alt="">
+                <img src="imgs/slider_shape01.png" alt="">
+                <img src="imgs/slider_shape04.png" alt="">
+            </div>
+        </div>
+    </div>
+    <!--end acceuil-->
+    <!--start store-->
+    <div class="store">
+        <div class="container pt-20 pb-20">
+            <div class="intro md:mb-7 flex justify-between items-center">
+                <div class="flex items-center gap-7">
+                    <h1 class="m-0 text-white text-6xl">Our Store</h1>
+                    <img src="imgs/storehead.png"  class="w-16">
+                </div>
+                <div class="icons flex justify-end items-center gap-3">
+                    <button class="prev">
+                        <i class="fas fa-angle-left"></i>
+                    </button>
+                    <button class="next">
+                        <i class="fas fa-angle-right"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="store-cards">
+                <div class="card">
+                    <div class="card-top flex justify-between items-center text-stone-200">
+                       <div class="avatar">
+                        <p class="logo">LOGO</p>
+                        <h6 class="m-0">Chez Matrix</h6>
+                       </div>
+                       <div class="icon">
+                        <a href="">
+                            <i class="far fa-heart mr-1"></i>
+                        </a>
+                       </div>
+                    </div>
+                    <div class="card-img ">
+                        <img src="imgs/nft_img05.jpg" class="rounded-md w-90 mt-3 object-cover max-w-full max-h-60" alt="">
+                    </div>
+                    <div class="card-bottom flex justify-between items-center flex-wrap text-stone-200 relative">
+                        <div class="info">
+                            <p class="mb-1">playstation Card</p>
+                            <span >50$</span>
+                        </div>
+                        <div class="discord  p-2 rounded-md">
+                            <a href="">
+                                <i class="fa-brands fa-discord ml-2"></i>
+                                Discord
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-top flex justify-between items-center text-stone-200">
+                       <div class="avatar">
+                        <p class="logo">LOGO</p>
+                        <h6 class="m-0">Chez Matrix</h6>
+                       </div>
+                       <div class="icon">
+                        <a href="">
+                            <i class="far fa-heart mr-1"></i>
+                        </a>
+                       </div>
+                    </div>
+                    <div class="card-img ">
+                        <img src="imgs/nft_img05.jpg" class="rounded-md w-90 mt-3 object-cover max-w-full max-h-60" alt="">
+                    </div>
+                    <div class="card-bottom flex justify-between items-center flex-wrap text-stone-200 relative">
+                        <div class="info">
+                            <p class="mb-1">playstation Card</p>
+                            <span >50$</span>
+                        </div>
+                        <div class="discord  p-2 rounded-md">
+                            <a href="">
+                                <i class="fa-brands fa-discord ml-2"></i>
+                                Discord
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-top flex justify-between items-center text-stone-200">
+                       <div class="avatar">
+                        <p class="logo">LOGO</p>
+                        <h6 class="m-0">Chez Matrix</h6>
+                       </div>
+                       <div class="icon">
+                        <a href="">
+                            <i class="far fa-heart mr-1"></i>
+                        </a>
+                       </div>
+                    </div>
+                    <div class="card-img ">
+                        <img src="imgs/nft_img05.jpg" class="rounded-md w-90 mt-3 object-cover max-w-full max-h-60" alt="">
+                    </div>
+                    <div class="card-bottom flex justify-between items-center flex-wrap text-stone-200 relative">
+                        <div class="info">
+                            <p class="mb-1">playstation Card</p>
+                            <span >50$</span>
+                        </div>
+                        <div class="discord  p-2 rounded-md">
+                            <a href="">
+                                <i class="fa-brands fa-discord ml-2"></i>
+                                Discord
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--end store-->
+    <!--start about-->
+        <div id="about" >
+            <div class="container pt-10 pb-10   ">
+                <div class="about-header">
+                    <div class="row1 flex justify-between items-center mb-5">
+                        <div>
+                            <div class="content">
+                                <h2 class="title md:text-6xl text-4xl tracking-wider m-0 text-white font-bold">ABOUT US</h2>
+                                <nav aria-label="">
+                                    <div class=" flex gap-4 text-white mt-3">
+                                        <a href="#acceuil">Home</a>
+                                        <span>ABOUT US</span>
+                                    </div>
+                                </nav>
+                            </div>
+                        </div>
+                        <div class="parent-img">
+                            <div class="img">
+                                <img src="imgs/about header.png" alt="img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row flex justify-between items-center gap-2">
+                    <div class="first-row">
+                        <div class="title text-white md:text-5xl text-3xl">
+                            <span class="block ">I'm</span>
+                            <span class="block">Jelyfish</span>
+                            <span class="block">Get The Best Deals Of</span>
+                            <span class="block">GAM<b>ING</b> Giftcards</span>
+                        </div>
+                        <div class="slider-circle relative">
+                            <img src="imgs/circle.svg" >
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 150" version="1.1">
+                                <path  id="textPath" d="M 0,75 a 75,75 0 1,1 0,1 z"></path>
+                                <text>
+                                    <textPath href="#textPath">Super Gaming Offers</textPath>
+                                </text>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="second-row relative">
+                            <div class="images flex gap-5 relative ">
+                                <img src="imgs/jely.jpg" alt="jelyfish">
+                                <img src="imgs/jelylogo.jpg" alt="jelyfish logo" >
+                            </div>
+                            <p class="paragraph absolute text-stone-400 italic font-bold">
+                                Lorem ipsum dolor sit amet, consteur adipiscing Duis elementum sollicitudin is yaugue euismods Nulla ullamcorper. Morbi pharetra tellus miolslis tincidunt massa venenatis. Lorem Ipsum is simply dummyd the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley.
+                            </p>
+                    </div>
+                </div> 
+                   
+            </div>
+        </div> 
+    <!--end about-->
+    <!--start discord-->   
+    <div id="discord">
+        <div class="container flex items-center justify-center">
+            <div class="row flex justify-center ">
+                <div>
+                    <div class="text-center text-white font-bold">                 
+                        <h2 class="title text-6xl mb-8 ">JOIN THE <span>COMMUNITY</span></h2>
+                        <p class="mb-8 text-xl">Join our Discord community to discover our offers</p>
+                        <a href="https://discord.com/" target="_blank" class="btn"><span>Join Discord</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer" class="text-center text-white bg-[#10181f] py-4">
+        Made With ❤️ By <a class="text-[#45f882]" href="https://www.linkedin.com/in/khaled-briki/" target="_blank">Briled</a>
+    </div>
+
+    <script src="javascript/main.js"></script>
+</body>
+</html>
+
+
+
+
+
+
